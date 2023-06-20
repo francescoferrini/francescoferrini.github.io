@@ -18,6 +18,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hi there 🌱
 
 I am Francesco Ferrini, researcher in the fields of Artificial Intelligence and Machine Learning. Currently, I am pursuing a Ph.D. in Artificial Intelligence and Machine Learning at the Structured Machine Learning Group, University of Trento, Italy.
 
@@ -30,7 +31,7 @@ One of the significant milestones in my academic journey was my internship at Aa
 My academic journey commenced with a Bachelor's degree in Computer Science at the University of Verona, Italy. This foundational education provided me with a solid understanding of fundamental concepts and ignited my passion for the field of informatics.
 
 
-Feel free to explore my website, where you can find more about my research, projects, and publications. If you have any questions or wish to collaborate, please don't hesitate to reach out.
+Feel free to explore my website, where you can find more about my research, projects, and publications. If you have any questions or wish to collaborate, or simply talk about research, tech or science, don-t hesitate to contact me.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
