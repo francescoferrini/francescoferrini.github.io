@@ -19,7 +19,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Francesco Ferrini, researcher in the fields of Artificial Intelligence and Machine Learning. Currently, I am pursuing a Ph.D. in Artificial Intelligence and Machine Learning at the Structured Machine Learning Group, University of Trento, Italy.
+
+My research interests revolve around Graph Neural Networks, Knowledge Graphs, and Explainability. I find immense fascination in exploring the potential of graph-based models to uncover intricate relationships and patterns. From studying these areas, I aim to enhance our understanding of complex data and enable more transparent and interpretable AI systems.
+
+Before embarking on my doctoral journey, I completed a Master's degree in Artificial Intelligence Systems. During this time, I had the opportunity to work on various projects related to Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing.
+
+One of the significant milestones in my academic journey was my internship at Aalborg University in Denmark. It was during this period that I embarked on my Master's thesis project, where I explored the exciting realm of Learning Meta-paths with GNN in heterogeneous graphs. 
+
+My academic journey commenced with a Bachelor's degree in Computer Science at the University of Verona, Italy. This foundational education provided me with a solid understanding of fundamental concepts and ignited my passion for the field of informatics.
+
+
+Feel free to explore my website, where you can find more about my research, projects, and publications. If you have any questions or wish to collaborate, please don't hesitate to reach out.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
