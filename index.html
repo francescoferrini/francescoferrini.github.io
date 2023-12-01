@@ -60,6 +60,18 @@
         display: block;
         margin-top: 10px;
       }
+      .youtube-section {
+        text-align: center; /* Allinea i video al centro */
+      }
+
+      .youtube-video {
+        display: inline-block; /* Imposta il display a inline-block per allineare i video orizzontalmente */
+        margin: 10px; /* Aggiunge uno spazio tra i video */
+      }
+      .youtube-thumbnail {
+        width: 280px; /* Imposta la larghezza desiderata */
+        height: 157px; /* Imposta l'altezza desiderata */
+      }
     </style>
     
     <!-- Dark Mode -->
@@ -204,19 +216,25 @@
               <p><strong>Year</strong>: 2021</p>
             </div>
           </div>
-
+          
           <div class="youtube-section">
-            <h2>Talks</h2>
+            <h2>YouTube Talks</h2>
             <div class="youtube-video">
-              <iframe width="280" height="157" src="https://www.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s" frameborder="0" allowfullscreen></iframe>
+              <a href="https://www.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s" target="_blank">
+                <img class="youtube-thumbnail" src="https://www.youtube.com/watch?v=9ddZ15dZ-lQ/maxresdefault.jpg" alt="Talk 1">
+              </a>
               <p><strong>Title:</strong> LOG 2023 Oral</p>
             </div>
             <div class="youtube-video">
-              <iframe width="280" height="157" src="https://www.youtube.com/watch?v=mh_oCB9O4rA" frameborder="0" allowfullscreen></iframe>
+              <a href="https://www.youtube.com/watch?v=mh_oCB9O4rA" target="_blank">
+                <img class="youtube-thumbnail" src="https://www.youtube.com/watch?v=mh_oCB9O4rA/maxresdefault.jpg" alt="Talk 2">
+              </a>
               <p><strong>Title:</strong> A hands-on introduction to Graph Deep Learning, with examples in PyTorch Geometric (4/4)</p>
               <a href="https://github.com/steveazzolin/gdl_tutorial_turinginst ">[slides & code]</a>
             </div>
           </div>
+
+  
           <!-- News       
           <div class="Publications">
             <h2>news</h2>
