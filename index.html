@@ -61,27 +61,35 @@
         margin-top: 10px;
       }
     
+      .youtube-section {
+        text-align: center;
+      }
+
       .youtube-videos {
         display: flex;
-        justify-content: space-between; /* Allinea i video uno a sinistra e uno a destra */
-        margin: 20px 0; /* Aggiunge uno spazio sopra e sotto ai video */
+        justify-content: space-around;
+        margin: 20px 0;
       }
 
       .youtube-video {
-        width: 30%; /* Imposta la larghezza del video, 48% per permettere uno spazio tra i video */
-        box-sizing: border-box; /* Include il padding e il bordo nella larghezza del video */
-        border: 2px solid #ccc; /* Aggiunge un bordo al video */
-        padding: 10px; /* Aggiunge spazio intorno al contenuto del video */
+        width: 30%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        padding: 10px;
         margin: 0;
       }
 
       .youtube-thumbnail {
-        width: 100%; /* Riempie l'intero spazio del video */
-        height: auto; /* Mantiene l'aspetto proporzionale dell'immagine */
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
       }
 
       .video-title {
-        margin-top: 10px; /* Aggiunge spazio sopra al titolo */
+        margin: 0;
+        font-weight: bold;
+        cursor: pointer;
       }
     </style>
     
@@ -233,20 +241,19 @@
             <div class="youtube-videos">
               <div class="youtube-video">
                 <a href="https://www.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s" target="_blank">
-                  <img class="youtube-thumbnail" src="https://www.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s/maxresdefault.jpg" alt="Talk 1">
+                  <img class="youtube-thumbnail" src="https://img.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s/maxresdefault.jpg" alt="Talk 1">
+                  <p class="video-title" onclick="window.location.href='https://www.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s'">Talk 1</p>
                 </a>
-                <p class="video-title"><strong>Title:</strong> Talk 1</p>
               </div>
               <div class="youtube-video">
                 <a href="https://www.youtube.com/watch?v=mh_oCB9O4rA" target="_blank">
-                  <img class="youtube-thumbnail" src="https://www.youtube.com/watch?v=mh_oCB9O4rA/maxresdefault.jpg" alt="Talk 2">
+                  <img class="youtube-thumbnail" src="https://img.youtube.com/watch?v=mh_oCB9O4rA/maxresdefault.jpg" alt="Talk 2">
+                  <p class="video-title" onclick="window.location.href='https://www.youtube.com/watch?v=mh_oCB9O4rA'">Talk 2</p>
                 </a>
-                <p class="video-title"><strong>Title:</strong> Talk 2</p>
               </div>
             </div>
           </div>
 
-          
 
   
           <!-- News       
