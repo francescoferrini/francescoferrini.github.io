@@ -1,84 +1,147 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{ferrini2026calibration,
+  abbr={AISTATS-W},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  title={On the Global and Local Calibration of Graph Neural Networks},
+  author={Ferrini, Francesco and Lachi, Veronica and Longa, Antonio and Barbera, Cesare and Pugnana, Andrea and Passerini, Andrea and Jaeger, Manfred},
+  abstract={Recent work on calibration of Graph Neural Networks (GNNs) has largely concluded that GNNs are miscalibrated and typically under-confident on standard node classification benchmarks, motivating the development of graph-specific calibration methods evaluated in terms of Expected Calibration Error (ECE) on citation datasets such as Cora, Citeseer, and Pubmed. We revisit these conclusions and show that much of the reported miscalibration is explained by hyperparameter choices rather than intrinsic limitations of GNN architectures. Properly tuned classical GNNs achieve comparable ECE with respect to existing calibration methods. We further provide the first study of local calibration in graph neural networks by computing Local Calibration Error (LCE) on graph data. In particular, we adapt LCE to the graph setting by defining locality through distances in the node embedding space learned by the GNN. While global calibration errors are small, we observe higher local miscalibration. As future direction, calibration of GNNs should be further studied locally and on larger graph benchmarks rather than relying solely on global metrics on small datasets.},
+  booktitle={AISTATS 2026 Workshop on Calibration for Modern AI},
+  year={2026},
+  url={https://openreview.net/forum?id=FHsEi0qz7t},
+  html={https://openreview.net/forum?id=FHsEi0qz7t},
+  pdf={https://openreview.net/pdf?id=FHsEi0qz7t},
+  selected={true},
+  keywords={Graph Neural Networks, calibration, Expected Calibration Error, ECE, Local Calibration Error, LCE, node classification}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+
+@article{ferrini2026rethinking,
+  abbr={arXiv},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  title={Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust Solution},
+  author={Ferrini, Francesco and Lachi, Veronica and Longa, Antonio and Lepri, Bruno and Akiyoshi, Matono and Passerini, Andrea and Liu, Xin and Jaeger, Manfred},
+  abstract={Handling missing node features is a key challenge for deploying Graph Neural Networks (GNNs) in real-world domains such as healthcare and sensor networks. Existing studies mostly address relatively benign scenarios, namely benchmark datasets with (a) high-dimensional but sparse node features and (b) incomplete data generated under Missing Completely At Random (MCAR) mechanisms. For (a), we theoretically prove that high sparsity substantially limits the information loss caused by missingness, making all models appear robust and preventing a meaningful comparison of their performance. To overcome this limitation, we introduce one synthetic and three real-world datasets with dense, semantically meaningful features. For (b), we move beyond MCAR and design evaluation protocols with more realistic missingness mechanisms. Within this improved evaluation setup we propose GNNmim, a lightweight, assumption-free baseline that achieves competitive performance for node classification with incomplete graph data.},
+  journal={arXiv preprint arXiv:2601.04855},
+  year={2026},
+  url={https://arxiv.org/abs/2601.04855},
+  html={https://arxiv.org/abs/2601.04855},
+  pdf={https://arxiv.org/pdf/2601.04855},
+  selected={true},
+  keywords={Graph Neural Networks, missing features, missingness, MCAR, node classification, robustness, GNN benchmarks}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{lachi2025bridging,
+  abbr={NeurIPS},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  title={Bridging Theory and Practice in Link Representation with Graph Neural Networks},
+  author={Lachi, Veronica and Ferrini, Francesco and Longa, Antonio and Lepri, Bruno and Passerini, Andrea and Jaeger, Manfred},
+  abstract={Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction. Yet, theoretical understanding of their expressive power has focused almost entirely on graph-level representations. In this work, we shift the focus to links and provide the first comprehensive study of GNN expressiveness in link representation. We introduce a unifying framework, the k_phi-k_rho-m framework, that subsumes existing message-passing link models and enables formal expressiveness comparisons. Using this framework, we derive a hierarchy of state-of-the-art methods and offer theoretical tools to analyze future architectures. To complement our analysis, we propose a synthetic evaluation protocol comprising the first benchmark specifically designed to assess link-level expressiveness.},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS) -- Spotlight},
+  year={2025},
+  note={Equal contribution: V. Lachi and F. Ferrini.},
+  url={https://openreview.net/forum?id=WYnvP3DePZ},
+  html={https://openreview.net/forum?id=WYnvP3DePZ},
+  pdf={https://openreview.net/pdf?id=WYnvP3DePZ},
+  selected={true},
+  keywords={Graph Neural Networks, link prediction, link representation, expressiveness, message passing}
+}
+
+@inproceedings{ferrini2025sp4lp,
+  abbr={NeurIPS-W},
+  bibtex_show={true},
+  title={GNNs Meet Sequence Models Along the Shortest Path: An Expressive Method for Link Prediction},
+  author={Ferrini, Francesco and Lachi, Veronica and Longa, Antonio and Lepri, Bruno and Passerini, Andrea},
+  abstract={Graph Neural Networks (GNNs) often struggle to capture the link-specific structural patterns crucial for accurate link prediction, as their node-centric message-passing schemes overlook the subgraph structures connecting a pair of nodes. Existing methods to inject such structural context either incur high computational cost or rely on simplistic heuristics (e.g., common neighbor counts) that fail to model multi-hop dependencies. We introduce SP4LP (Shortest Path for Link Prediction), a framework that combines GNN-based node encodings with sequence modeling over shortest paths. SP4LP first applies a GNN to compute representations for all nodes, then extracts the shortest path between each candidate node pair and processes the resulting sequence of node embeddings using a sequence model. Empirically, SP4LP achieves state-of-the-art performance across link prediction benchmarks; theoretically, we prove that SP4LP is strictly more expressive than standard message-passing GNNs and several state-of-the-art structural-feature methods.},
+  booktitle={NeurIPS 2025 Workshop on New Perspectives in Graph Machine Learning},
+  year={2025},
+  note={Equal contribution: F. Ferrini and V. Lachi.},
+  url={https://openreview.net/forum?id=mubWzUoEzl},
+  html={https://openreview.net/forum?id=mubWzUoEzl},
+  pdf={https://openreview.net/pdf?id=mubWzUoEzl},
+  selected={true},
+  keywords={Graph Neural Networks, link prediction, shortest path, sequence models, expressiveness}
+}
+
+@inproceedings{ferrini2025beyond,
+  abbr={NeurIPS-W},
+  bibtex_show={true},
+  title={Beyond Sparse Benchmarks: Evaluating GNNs with Realistic Missing Features},
+  author={Ferrini, Francesco and Lachi, Veronica and Longa, Antonio and Lepri, Bruno and Passerini, Andrea and Liu, Xin and Jaeger, Manfred},
+  abstract={Existing benchmarks for evaluating Graph Neural Networks (GNNs) under missing node features rely on high-dimensional sparse features and Missing Completely At Random (MCAR) corruption, which are too benign to expose differences between methods. We argue that meaningful evaluation requires (i) datasets with dense, semantically meaningful features and (ii) realistic missingness mechanisms that go beyond MCAR. We introduce a benchmark composed of one synthetic and three real-world datasets with these properties, alongside evaluation protocols that capture more practical missingness. Our experiments show that under realistic conditions the apparent robustness of existing GNN methods largely disappears, motivating a re-evaluation of progress in this area.},
+  booktitle={NeurIPS 2025 Workshop on New Perspectives in Graph Machine Learning -- Oral},
+  year={2025},
+  url={https://openreview.net/forum?id=GfU8DhOzae},
+  html={https://openreview.net/forum?id=GfU8DhOzae},
+  pdf={https://openreview.net/pdf?id=GfU8DhOzae},
+  selected={true},
+  keywords={Graph Neural Networks, missing features, benchmark, evaluation, missingness mechanisms}
+}
+
+@article{ferrini2025selfexplainable,
+  abbr={TMLR},
+  bibtex_show={true},
+  title={A Self-Explainable Heterogeneous GNN for Relational Deep Learning},
+  author={Ferrini, Francesco and Longa, Antonio and Passerini, Andrea and Jaeger, Manfred},
+  abstract={Recently, significant attention has been given to the idea of viewing relational databases as heterogeneous graphs, enabling the application of graph neural network (GNN) technology for predictive tasks. However, existing GNN methods struggle with the complexity of the heterogeneous graphs induced by databases with numerous tables and relations. Traditional approaches either consider all possible relational meta-paths, thus failing to scale with the number of relations, or rely on domain experts to identify relevant meta-paths. A recent solution does manage to learn informative meta-paths without expert supervision, but assumes that a node's class depends solely on the existence of a meta-path occurrence. In this work, we present a self-explainable heterogeneous GNN for relational data that supports models in which class membership depends on aggregate information obtained from multiple occurrences of a meta-path. Experimental results on synthetic and real-world relational database tasks show substantial advantages over existing heterogeneous GNNs and relational deep learning baselines.},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  year={2025},
+  url={https://openreview.net/forum?id=8Q4qxe9a9Z},
+  html={https://openreview.net/forum?id=8Q4qxe9a9Z},
+  pdf={https://openreview.net/pdf?id=8Q4qxe9a9Z},
+  selected={true},
+  keywords={heterogeneous graph neural networks, relational deep learning, meta-path learning, self-explainable models, relational databases}
+}
+
+@inproceedings{lachi2024slrgnn,
+  abbr={ICML-W},
+  bibtex_show={true},
+  title={A Simple and Expressive Graph Neural Network-Based Method for Structural Link Representation},
+  author={Lachi, Veronica and Ferrini, Francesco and Longa, Antonio and Lepri, Bruno and Passerini, Andrea},
+  abstract={Graph Neural Networks (GNNs) have achieved state-of-the-art results in tasks like node classification, link prediction, and graph classification. While much research has focused on their ability to distinguish graphs, fewer studies have addressed their capacity to differentiate links, a complex and less explored area. We introduce SLRGNN, a theoretically grounded GNN-based method for link prediction that ensures link representations are distinct if and only if the links have different structural roles within the graph. Our approach transforms the link prediction problem into a node classification problem on the corresponding line graph, enhancing expressiveness without sacrificing efficiency. Unlike existing methods, SLRGNN computes link probabilities in a single inference step, avoiding the need for individual subgraph constructions. We provide a formal proof of the method's expressiveness and validate its performance on real-world datasets.},
+  booktitle={Proceedings of the Geometry-grounded Representation Learning and Generative Modeling Workshop (GRaM) at ICML 2024, PMLR},
+  volume={251},
+  pages={187--201},
+  year={2024},
+  url={https://proceedings.mlr.press/v251/lachi24a.html},
+  html={https://proceedings.mlr.press/v251/lachi24a.html},
+  pdf={https://raw.githubusercontent.com/mlresearch/v251/main/assets/lachi24a/lachi24a.pdf},
+  keywords={Graph Neural Networks, link prediction, line graph, structural representation, expressiveness}
+}
+
+@inproceedings{ferrini2024metapath,
+  abbr={LoG},
+  bibtex_show={true},
+  title={Meta-Path Learning for Multi-Relational Graph Neural Networks},
+  author={Ferrini, Francesco and Longa, Antonio and Passerini, Andrea and Jaeger, Manfred},
+  abstract={Existing multi-relational graph neural networks use one of two strategies for identifying informative relations: either they reduce this problem to low-level weight learning, or they rely on handcrafted chains of relational dependencies, called meta-paths. However, the former approach faces challenges in the presence of many relations (e.g., knowledge graphs), while the latter requires substantial domain expertise to identify relevant meta-paths. In this work we propose a novel approach to learn meta-paths and meta-path GNNs that are highly accurate based on a small number of informative meta-paths. Key element of our approach is a scoring function for measuring the potential informativeness of a relation in the incremental construction of the meta-path. Our experimental evaluation shows that the approach correctly identifies relevant meta-paths even with a large number of relations, and substantially outperforms existing multi-relational GNNs on synthetic and real-world experiments.},
+  booktitle={Proceedings of the Second Learning on Graphs Conference (LoG), PMLR -- Oral},
+  volume={231},
+  pages={2:1--2:17},
+  year={2024},
+  note={Originally appeared at LoG 2023.},
+  url={https://proceedings.mlr.press/v231/ferrini24a.html},
+  html={https://proceedings.mlr.press/v231/ferrini24a.html},
+  pdf={https://proceedings.mlr.press/v231/ferrini24a/ferrini24a.pdf},
+  selected={true},
+  keywords={multi-relational graph neural networks, meta-path learning, knowledge graphs, heterogeneous graphs}
+}
+
+@article{raza2021tinyml,
+  abbr={Drones},
+  bibtex_show={true},
+  title={Energy-Efficient Inference on the Edge Exploiting TinyML Capabilities for UAVs},
+  author={Raza, Wamiq and Osman, Anas and Ferrini, Francesco and De Natale, Francesco},
+  abstract={In recent years, the proliferation of unmanned aerial vehicles (UAVs) has increased dramatically. UAVs can accomplish complex or dangerous tasks in a reliable and cost-effective way but are still limited by power consumption problems, which pose serious constraints on the flight duration and completion of energy-demanding tasks. In this paper, we propose a practical solution that exploits deep learning on the edge: we integrate an OpenMV microcontroller into a DJI Tello Micro Aerial Vehicle, hosting a set of TinyML inference tools that cooperate to control the navigation of the drone and complete a given mission objective. The approach leverages the new opportunistic features of TinyML -- offline inference, low latency, energy efficiency, and data security -- and is validated on the onboard detection of people wearing protection masks in a crowded environment.},
+  journal={Drones (MDPI)},
+  volume={5},
+  number={4},
+  pages={127},
+  year={2021},
+  doi={10.3390/drones5040127},
+  url={https://www.mdpi.com/2504-446X/5/4/127},
+  html={https://www.mdpi.com/2504-446X/5/4/127},
+  pdf={https://www.mdpi.com/2504-446X/5/4/127/pdf},
+  keywords={TinyML, UAV, edge computing, energy efficiency, deep learning, microcontrollers}
 }

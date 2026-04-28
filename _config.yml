@@ -7,9 +7,12 @@ first_name: Francesco
 middle_name: 
 last_name: Ferrini
 email: francesco.ferrini@unitn.it
-description:   
+description: >
+  Francesco Ferrini — PhD in Artificial Intelligence and Machine Learning (University of Trento).
+  Researcher in Graph Neural Networks (GNNs), relational and heterogeneous graph learning,
+  link prediction, missing node features, and self-explainable models.
 footer_text: 
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: graph neural networks, GNN, GNNs, relational learning, heterogeneous graphs, link prediction, missing features, missingness, meta-path learning, self-explainable GNN, Francesco Ferrini, University of Trento
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -59,9 +62,11 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
+# NOTE: To make Schema.org "sameAs" links richer, fill in the academic IDs below
+#       (scholar_userid, orcid_id, semanticscholar_id, dblp_url) when you have them.
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -117,9 +122,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Francesco Ferrini — Blog # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: Notes and informal walk-throughs of my research on Graph Neural Networks, link prediction, missing features, and heterogeneous graphs.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -153,9 +158,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -265,8 +270,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags wil
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ferrini]
+  first_name: [Francesco, F.]
 
   style: apa
   locale: en
