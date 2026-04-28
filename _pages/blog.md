@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-description: Short research notes, tutorials, and explainers on Graph Machine Learning, Graph Neural Networks, missing features, and link prediction.
+description: Short research notes, tutorials on Graph Machine Learning, Graph Neural Networks, missing features, and link prediction.
 nav: true
 nav_order: 3
 pagination:
