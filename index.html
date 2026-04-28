@@ -9,11 +9,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Francesco Ferrini</title>
-    <meta name="author" content="Francesco fERRINI" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <title>Francesco Ferrini — Graph Neural Networks Researcher (PhD, University of Trento)</title>
+    <meta name="author" content="Francesco Ferrini" />
+    <meta name="description" content="Francesco Ferrini — PhD in Artificial Intelligence and Machine Learning (University of Trento). Research on Graph Neural Networks (GNNs), relational and heterogeneous graph learning, link prediction, missing node features, meta-path learning, and self-explainable models." />
+    <meta name="keywords" content="Francesco Ferrini, Graph Neural Networks, GNN, GNNs, link prediction, missing features, missingness, heterogeneous graphs, meta-path learning, self-explainable GNN, relational deep learning, University of Trento, Andrea Passerini, Manfred Jaeger" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Francesco Ferrini" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Francesco Ferrini — Graph Neural Networks Researcher" />
+    <meta property="og:url" content="https://francescoferrini.github.io/" />
+    <meta property="og:description" content="PhD in AI/ML at the University of Trento. Research on Graph Neural Networks, link prediction, missing features, heterogeneous graphs, and self-explainable models." />
+    <meta property="og:image" content="https://francescoferrini.github.io/assets/img/prof_pic.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Francesco Ferrini" />
+    <meta name="twitter:description" content="PhD researcher in Graph Neural Networks, link prediction, and missing node features. University of Trento." />
+    <meta name="twitter:image" content="https://francescoferrini.github.io/assets/img/prof_pic.png" />
+    <meta name="twitter:site" content="@franciferrini_" />
+    <meta name="twitter:creator" content="@franciferrini_" />
 
 
     <!-- Bootstrap & MDB -->
@@ -40,51 +56,6 @@
         background-color: #ccc;
         margin-top: 20px;
         margin-bottom: 20px;
-      }
-      .publication {
-        margin-bottom: 20px;
-      }
-      
-      .publication h4 {
-        font-size: 16px;
-        font-weight: bold;
-        margin-bottom: 5px;
-      }
-      
-      .publication p {
-        font-size: 14px;
-        margin-bottom: 3px;
-      }
-      
-      .publication a {
-        display: block;
-        margin-top: 10px;
-      }
-
-      .youtube-videos {
-        display: flex;
-        margin: 20px 0;
-      }
-
-      .youtube-video {
-        width: 30%;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        padding: 10px;
-        margin: 0;
-      }
-
-      .youtube-thumbnail {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-bottom: 10px;
-      }
-
-      .video-title {
-        margin: 0;
-        font-weight: bold;
-        cursor: pointer;
       }
     </style>
     
@@ -132,12 +103,27 @@
               <li class="nav-item active">
                 <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
               </li>
-              
+
+              <!-- Publications -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">publications</a>
+              </li>
+
+              <!-- Talks -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/talks/">talks</a>
+              </li>
+
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li>
+
               <!-- cv -->
               <li class="nav-item ">
                 <a class="nav-link" href="./_pages/resumee.pdf" target="_blank">CV</a>
               </li>
-              
+
               <!-- Other pages -->
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
@@ -195,48 +181,47 @@
 
   <p>
     I am Francesco Ferrini, a researcher in Artificial Intelligence and Machine Learning.
-    I am currently pursuing a Ph.D. in Artificial Intelligence and Machine Learning at the
+    I recently completed my Ph.D. in Artificial Intelligence and Machine Learning at the
     <a href="http://sml.disi.unitn.it/index.html">Structured Machine Learning Group</a>,
     University of Trento, Italy, under the supervision of
     <a href="https://disi.unitn.it/~passerini/">Andrea Passerini</a>
     (University of Trento) and
     <a href="https://homes.cs.aau.dk/~jaeger/index.php">Manfred Jaeger</a>
-    (University of Aalborg, Denmark).
+    (Aalborg University, Denmark).
   </p>
 
   <p>
-    My research focuses on Graph Neural Networks and relational learning, with particular
-    interest in multi-relational and heterogeneous graph models, as well as learning
-    paradigms that explicitly account for incomplete, uncertain, or imperfect information
-    in real-world data.
+    My research focuses on <strong>Graph Neural Networks (GNNs)</strong> and <strong>relational learning</strong>,
+    with particular interest in:
   </p>
+  <ul>
+    <li><strong>Heterogeneous and multi-relational graphs</strong> &mdash; meta-path learning, self-explainable models, relational deep learning on databases.</li>
+    <li><strong>Link prediction</strong> &mdash; structural link representation, expressiveness of GNNs at the link level, shortest-path-based methods.</li>
+    <li><strong>Learning with imperfect data</strong> &mdash; GNNs with missing node features, realistic missingness mechanisms, robust evaluation.</li>
+  </ul>
 
   <p>
-    During my Ph.D., I have also carried out a research period in Japan, where I worked at
-    the National Institute of Advanced Industrial Science and Technology (AIST) in collaboration
-    with academic and industrial researchers. This experience allowed me to further explore
-    graph-based learning in applied and interdisciplinary settings, and to strengthen my
-    international research profile.
+    During my Ph.D., I also carried out a research period in Japan at the
+    National Institute of Advanced Industrial Science and Technology (AIST), where I worked with
+    academic and industrial researchers on graph-based learning in applied and interdisciplinary settings.
   </p>
 
   <p>
     Prior to my doctoral studies, I obtained a Master's degree in Artificial Intelligence Systems.
     During this period, I worked on several projects spanning Machine Learning, Deep Learning,
-    Computer Vision, and Natural Language Processing.
+    Computer Vision, and Natural Language Processing. I also interned at Aalborg University in Denmark,
+    where I began my Master's thesis research on meta-path learning for Graph Neural Networks in
+    heterogeneous graphs.
   </p>
 
   <p>
-    I also interned at Aalborg University in Denmark, where I began my Master's thesis research
-    on meta-path learning for Graph Neural Networks in heterogeneous graphs.
-  </p>
-
-  <p>
-    Outside of research, I enjoy practicing sports—especially calisthenics and tennis—and
+    Outside of research, I enjoy practicing sports &mdash; especially calisthenics and tennis &mdash; and
     playing chess.
   </p>
 
   <p>
-    Feel free to explore my website to learn more about my research, projects, and publications.
+    Feel free to explore my <a href="/publications/">publications</a>, <a href="/talks/">talks</a>,
+    <a href="/blog/">blog</a>, and <a href="/projects/">projects</a>.
     If you are interested in collaboration, have a research idea, or would simply like to
     discuss science and technology, do not hesitate to get in touch.
   </p>
@@ -247,141 +232,6 @@
 </div>
 
 
-          <hr class="separator">
-
-          <div class="publications-section">
-              <h2>Publications</h2>
-
-              <!-- 2026 -->
-              <div class="publication">
-                <h4>
-                  <a href="https://arxiv.org/abs/2601.04855">
-                    Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust Solution
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Francesco Ferrini, Veronica Lachi, Antonio Longa, Bruno Lepri, Matono Akiyoshi, Andrea Passerini, Xin Liu, Manfred Jaeger</p>
-                <p><strong>Type</strong>: arXiv Preprint</p>
-                <p><strong>Year</strong>: 2026</p>
-              </div>
-
-              <!-- 2025 -->
-              <div class="publication">
-                <h4>
-                  <a href="https://openreview.net/pdf?id=WYnvP3DePZ">
-                    Bridging Theory and Practice in Link Representation with Graph Neural Networks
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Veronica Lachi<sup>*</sup>, Francesco Ferrini<sup>*</sup>, Antonio Longa, Bruno Lepri, Andrea Passerini, Manfred Jaeger</p>
-                <p><strong>Conference</strong>: NeurIPS 2025 </p>
-                <p><strong>Accepted as</strong>: Spotlight</p>
-                <p><strong>Year</strong>: 2025</p>
-              </div>
-
-              <div class="publication">
-                <h4>
-                  <a href="https://openreview.net/pdf?id=mubWzUoEzl">
-                    GNNs Meet Sequence Models Along the Shortest Path: An Expressive Method for Link Prediction
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Francesco Ferrini<sup>*</sup>, Veronica Lachi<sup>*</sup>, Antonio Longa, Bruno Lepri, Andrea Passerini</p>
-                <p><strong>Workshop</strong>: NeurIPS 2025 – New Perspectives in Graph Machine Learning</p>
-                <p><strong>Year</strong>: 2025</p>
-              </div>
-
-              <div class="publication">
-                <h4>
-                  <a href="https://openreview.net/pdf?id=GfU8DhOzae">
-                    Beyond Sparse Benchmarks: Evaluating GNNs with Realistic Missing Features
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Francesco Ferrini, Veronica Lachi, Antonio Longa, Bruno Lepri, Andrea Passerini, Xin Liu, Manfred Jaeger</p>
-                <p><strong>Workshop</strong>: NeurIPS 2025 – New Perspectives in Graph Machine Learning</p>
-                <p><strong>Accepted as</strong>: Oral</p>
-                <p><strong>Year</strong>: 2025</p>
-              </div>
-
-              <div class="publication">
-                <h4>
-                  <a href="https://openreview.net/pdf?id=8Q4qxe9a9Z">
-                    A Self-Explainable Heterogeneous GNN for Relational Deep Learning
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Francesco Ferrini, Antonio Longa, Andrea Passerini, Manfred Jaeger</p>
-                <p><strong>Journal</strong>: Transactions on Machine Learning Research (TMLR)</p>
-                <p><strong>Status</strong>: Accepted</p>
-                <p><strong>Year</strong>: 2025</p>
-              </div>
-
-              <!-- 2024 -->
-              <div class="publication">
-                <h4>
-                  <a href="https://proceedings.mlr.press/v251/lachi24a.html">
-                    A Simple and Expressive Graph Neural Network-Based Method for Structural Link Representation
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Veronica Lachi, Francesco Ferrini, Antonio Longa, Bruno Lepri, Andrea Passerini</p>
-                <p><strong>Conference</strong>: Proceedings of Machine Learning Research (PMLR)</p>
-                <p><strong>Year</strong>: 2024</p>
-              </div>
-
-              <!-- 2023 -->
-              <div class="publication">
-                <h4>
-                  <a href="https://proceedings.mlr.press/v231/ferrini24a/ferrini24a.pdf">
-                    Meta-Path Learning for Multi-Relational Graph Neural Networks
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Francesco Ferrini, Antonio Longa, Andrea Passerini, Manfred Jaeger</p>
-                <p><strong>Conference</strong>: Learning on Graphs Conference (LoG)</p>
-                <p><strong>Accepted as</strong>: Oral</p>
-                <p><strong>Year</strong>: 2023</p>
-              </div>
-
-              <!-- 2021 -->
-              <div class="publication">
-                <h4>
-                  <a href="https://www.mdpi.com/2504-446X/5/4/127">
-                    Energy-Efficient Inference on the Edge Exploiting TinyML Capabilities for UAVs
-                  </a>
-                </h4>
-                <p><strong>Authors</strong>: Wamiq Raza, Anas Osman, Francesco Ferrini, Francesco De Natale</p>
-                <p><strong>Journal</strong>: Drones (MDPI)</p>
-                <p><strong>Year</strong>: 2021</p>
-              </div>
-
-            </div>
-          
-          <div class="youtube-section">
-            <h2>Talks</h2>
-            <div class="youtube-videos">
-              <div class="youtube-video">
-                  <a href="https://neurips.cc/virtual/2025/loc/san-diego/127678" target="_blank">
-                    <img
-                      class="youtube-thumbnail"
-                      src="/assets/img/neurips_logo.png"
-                      alt="NeurIPS 2025 Workshop Oral"
-                    >
-                    <p class="video-title">
-                      <strong>[Oral]</strong> NeurIPS 2025 Workshop<br>
-                      Beyond Sparse Benchmarks: Evaluating GNNs with Realistic Missing Features
-                    </p>
-                  </a>
-                </div>
-              <div class="youtube-video">
-                <a href="https://www.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s" target="_blank">
-                  <img class="youtube-thumbnail" src="https://i3.ytimg.com/vi/9ddZ15dZ-lQ/maxresdefault.jpg" alt="Talk 1">
-                  <p class="video-title" onclick="window.location.href='https://www.youtube.com/watch?v=9ddZ15dZ-lQ?t=1m21s'">LOG 2023 Oral</p>
-                </a>
-              </div>
-              <div class="youtube-video">
-                <a href="https://www.youtube.com/watch?v=mh_oCB9O4rA" target="_blank">
-                  <img class="youtube-thumbnail" src="https://i3.ytimg.com/vi/mh_oCB9O4rA/maxresdefault.jpg" alt="Talk 2">
-                  <p class="video-title" onclick="window.location.href='https://www.youtube.com/watch?v=mh_oCB9O4rA'">Heterogeneous Graph Learning. Hands on tutorial held by the Alan Turing Institute</p>
-                </a>
-                <a href="https://github.com/steveazzolin/gdl_tutorial_turinginst ">[slides & code]</a>
-              </div>
-            </div>
-          </div>
 
 
   
@@ -455,7 +305,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Francesco Ferrini. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+        © Copyright 2026 Francesco Ferrini. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>
@@ -490,7 +340,205 @@
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-    
+    <!-- Schema.org structured data: Person + ScholarlyArticle list (for SEO and LLM discovery) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://francescoferrini.github.io/#person",
+          "name": "Francesco Ferrini",
+          "givenName": "Francesco",
+          "familyName": "Ferrini",
+          "jobTitle": "Researcher in Artificial Intelligence and Machine Learning",
+          "description": "PhD in Artificial Intelligence and Machine Learning at the University of Trento. Research on Graph Neural Networks (GNNs), relational and heterogeneous graph learning, link prediction, missing node features, meta-path learning, and self-explainable models.",
+          "image": "https://francescoferrini.github.io/assets/img/prof_pic.png",
+          "url": "https://francescoferrini.github.io/",
+          "email": "francescoferrini1997@gmail.com",
+          "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "University of Trento" },
+            { "@type": "CollegeOrUniversity", "name": "Aalborg University" }
+          ],
+          "knowsAbout": [
+            "Graph Neural Networks",
+            "Heterogeneous graphs",
+            "Multi-relational learning",
+            "Link prediction",
+            "Missing node features",
+            "Meta-path learning",
+            "Self-explainable GNNs",
+            "Relational deep learning",
+            "TinyML"
+          ],
+          "sameAs": [
+            "https://github.com/francescoferrini",
+            "https://www.linkedin.com/in/ffrancesco",
+            "https://twitter.com/franciferrini_"
+          ]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "On the Global and Local Calibration of Graph Neural Networks",
+          "name": "On the Global and Local Calibration of Graph Neural Networks",
+          "author": [
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Veronica Lachi" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Cesare Barbera" },
+            { "@type": "Person", "name": "Andrea Pugnana" },
+            { "@type": "Person", "name": "Andrea Passerini" },
+            { "@type": "Person", "name": "Manfred Jaeger" }
+          ],
+          "datePublished": "2026",
+          "isPartOf": { "@type": "PublicationEvent", "name": "AISTATS 2026 Workshop on Calibration for Modern AI" },
+          "url": "https://openreview.net/forum?id=FHsEi0qz7t",
+          "abstract": "Recent work on calibration of Graph Neural Networks has largely concluded that GNNs are miscalibrated and typically under-confident on standard node classification benchmarks. We revisit these conclusions and show that much of the reported miscalibration is explained by hyperparameter choices rather than intrinsic limitations of GNN architectures. We further provide the first study of local calibration in GNNs by computing Local Calibration Error (LCE) on graph data, defining locality through distances in the node embedding space learned by the GNN.",
+          "keywords": "Graph Neural Networks, calibration, Expected Calibration Error, ECE, Local Calibration Error, LCE, node classification"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust Solution",
+          "name": "Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust Solution",
+          "author": [
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Veronica Lachi" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Bruno Lepri" },
+            { "@type": "Person", "name": "Matono Akiyoshi" },
+            { "@type": "Person", "name": "Andrea Passerini" },
+            { "@type": "Person", "name": "Xin Liu" },
+            { "@type": "Person", "name": "Manfred Jaeger" }
+          ],
+          "datePublished": "2026",
+          "url": "https://arxiv.org/abs/2601.04855",
+          "abstract": "Handling missing node features is a key challenge for deploying Graph Neural Networks (GNNs) in real-world domains such as healthcare and sensor networks. Existing studies mostly address relatively benign scenarios with sparse features and Missing Completely At Random corruption. We theoretically prove that high sparsity limits information loss caused by missingness, and introduce dense, semantically meaningful datasets and realistic missingness mechanisms. We propose GNNmim, a lightweight, assumption-free baseline competitive for node classification with incomplete graph data.",
+          "keywords": "Graph Neural Networks, GNN, missing features, missingness, MCAR, node classification, robustness"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "Bridging Theory and Practice in Link Representation with Graph Neural Networks",
+          "name": "Bridging Theory and Practice in Link Representation with Graph Neural Networks",
+          "author": [
+            { "@type": "Person", "name": "Veronica Lachi" },
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Bruno Lepri" },
+            { "@type": "Person", "name": "Andrea Passerini" },
+            { "@type": "Person", "name": "Manfred Jaeger" }
+          ],
+          "datePublished": "2025",
+          "isPartOf": { "@type": "PublicationEvent", "name": "Advances in Neural Information Processing Systems (NeurIPS) 2025 — Spotlight" },
+          "url": "https://openreview.net/forum?id=WYnvP3DePZ",
+          "abstract": "We provide the first comprehensive study of GNN expressiveness in link representation, introducing the k_phi-k_rho-m framework that subsumes existing message-passing link models and enables formal expressiveness comparisons. We derive a hierarchy of state-of-the-art methods and propose the first benchmark designed to assess link-level expressiveness.",
+          "keywords": "Graph Neural Networks, link prediction, expressiveness, message passing, link representation"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "GNNs Meet Sequence Models Along the Shortest Path: An Expressive Method for Link Prediction",
+          "name": "GNNs Meet Sequence Models Along the Shortest Path: An Expressive Method for Link Prediction",
+          "author": [
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Veronica Lachi" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Bruno Lepri" },
+            { "@type": "Person", "name": "Andrea Passerini" }
+          ],
+          "datePublished": "2025",
+          "isPartOf": { "@type": "PublicationEvent", "name": "NeurIPS 2025 Workshop on New Perspectives in Graph Machine Learning" },
+          "url": "https://openreview.net/forum?id=mubWzUoEzl",
+          "abstract": "We introduce SP4LP (Shortest Path for Link Prediction), a framework that combines GNN-based node encodings with sequence modeling over shortest paths. SP4LP achieves state-of-the-art performance across link-prediction benchmarks and is strictly more expressive than standard message-passing GNNs.",
+          "keywords": "Graph Neural Networks, link prediction, shortest path, sequence models, expressiveness"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "Beyond Sparse Benchmarks: Evaluating GNNs with Realistic Missing Features",
+          "name": "Beyond Sparse Benchmarks: Evaluating GNNs with Realistic Missing Features",
+          "author": [
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Veronica Lachi" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Bruno Lepri" },
+            { "@type": "Person", "name": "Andrea Passerini" },
+            { "@type": "Person", "name": "Xin Liu" },
+            { "@type": "Person", "name": "Manfred Jaeger" }
+          ],
+          "datePublished": "2025",
+          "isPartOf": { "@type": "PublicationEvent", "name": "NeurIPS 2025 Workshop on New Perspectives in Graph Machine Learning — Oral" },
+          "url": "https://openreview.net/forum?id=GfU8DhOzae",
+          "abstract": "Existing benchmarks for evaluating GNNs under missing node features are too benign. We propose datasets with dense, semantically meaningful features and realistic missingness mechanisms. Under realistic conditions the apparent robustness of existing GNN methods largely disappears.",
+          "keywords": "Graph Neural Networks, missing features, benchmark, evaluation, missingness"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "A Self-Explainable Heterogeneous GNN for Relational Deep Learning",
+          "name": "A Self-Explainable Heterogeneous GNN for Relational Deep Learning",
+          "author": [
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Andrea Passerini" },
+            { "@type": "Person", "name": "Manfred Jaeger" }
+          ],
+          "datePublished": "2025",
+          "isPartOf": { "@type": "Periodical", "name": "Transactions on Machine Learning Research (TMLR)" },
+          "url": "https://openreview.net/forum?id=8Q4qxe9a9Z",
+          "abstract": "We present a self-explainable heterogeneous GNN for relational data that supports models in which class membership depends on aggregate information obtained from multiple occurrences of a meta-path. The method scales to relational databases with many tables and relations and substantially outperforms existing heterogeneous GNNs and relational deep learning baselines.",
+          "keywords": "heterogeneous GNN, relational deep learning, meta-path learning, self-explainable models, relational databases"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "A Simple and Expressive Graph Neural Network-Based Method for Structural Link Representation",
+          "name": "A Simple and Expressive Graph Neural Network-Based Method for Structural Link Representation",
+          "author": [
+            { "@type": "Person", "name": "Veronica Lachi" },
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Bruno Lepri" },
+            { "@type": "Person", "name": "Andrea Passerini" }
+          ],
+          "datePublished": "2024",
+          "isPartOf": { "@type": "PublicationEvent", "name": "GRaM Workshop at ICML 2024, PMLR 251" },
+          "url": "https://proceedings.mlr.press/v251/lachi24a.html",
+          "abstract": "SLRGNN is a theoretically grounded GNN-based method for link prediction that ensures link representations are distinct iff the links have different structural roles. We transform link prediction into node classification on the line graph, gaining expressiveness without sacrificing efficiency.",
+          "keywords": "Graph Neural Networks, link prediction, line graph, structural representation, expressiveness"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "Meta-Path Learning for Multi-Relational Graph Neural Networks",
+          "name": "Meta-Path Learning for Multi-Relational Graph Neural Networks",
+          "author": [
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Antonio Longa" },
+            { "@type": "Person", "name": "Andrea Passerini" },
+            { "@type": "Person", "name": "Manfred Jaeger" }
+          ],
+          "datePublished": "2024",
+          "isPartOf": { "@type": "PublicationEvent", "name": "Learning on Graphs Conference (LoG), PMLR 231 — Oral" },
+          "url": "https://proceedings.mlr.press/v231/ferrini24a.html",
+          "abstract": "We propose a novel approach to learn meta-paths and meta-path GNNs that are highly accurate based on a small number of informative meta-paths. A scoring function measures the potential informativeness of a relation in the incremental construction of the meta-path; the approach correctly identifies relevant meta-paths even with many relations.",
+          "keywords": "multi-relational GNNs, meta-path learning, knowledge graphs, heterogeneous graphs"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "headline": "Energy-Efficient Inference on the Edge Exploiting TinyML Capabilities for UAVs",
+          "name": "Energy-Efficient Inference on the Edge Exploiting TinyML Capabilities for UAVs",
+          "author": [
+            { "@type": "Person", "name": "Wamiq Raza" },
+            { "@type": "Person", "name": "Anas Osman" },
+            { "@type": "Person", "name": "Francesco Ferrini", "@id": "https://francescoferrini.github.io/#person" },
+            { "@type": "Person", "name": "Francesco De Natale" }
+          ],
+          "datePublished": "2021",
+          "isPartOf": { "@type": "Periodical", "name": "Drones (MDPI)" },
+          "url": "https://www.mdpi.com/2504-446X/5/4/127",
+          "identifier": "10.3390/drones5040127",
+          "abstract": "We integrate an OpenMV microcontroller into a DJI Tello Micro Aerial Vehicle, hosting TinyML inference tools that control the navigation of the drone and complete a given mission. The approach leverages offline inference, low latency, energy efficiency, and data security.",
+          "keywords": "TinyML, UAV, edge computing, energy efficiency, deep learning, microcontrollers"
+        }
+      ]
+    }
+    </script>
+
   </body>
 </html>
 
