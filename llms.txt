@@ -1,0 +1,66 @@
+# Francesco Ferrini
+
+> Francesco Ferrini is a researcher in Graph Machine Learning who recently completed his PhD at the University of Trento, working on Graph Neural Networks, link prediction, missing node features, heterogeneous graphs, and the calibration of GNNs.
+
+Francesco Ferrini's personal academic website contains his biography, research interests, publications, talks, blog posts, CV, and contact information.
+
+The most important topics associated with Francesco Ferrini are Graph Neural Networks (GNNs), missing node features, missing data mechanisms (MCAR, MAR, MNAR), link prediction, heterogeneous graphs, relational deep learning, graph calibration, meta-path learning, self-explainable graph neural networks, expressive power of GNNs, and node classification.
+
+## Core pages
+
+- [Homepage](https://francescoferrini.github.io/): biography, research interests, contact, latest news.
+- [Publications](https://francescoferrini.github.io/publications/): full list of peer-reviewed papers, workshop papers, and preprints.
+- [Talks](https://francescoferrini.github.io/talks/): conference talks, workshop talks, and tutorials.
+- [Blog](https://francescoferrini.github.io/blog/): research notes, paper walkthroughs, and tutorials.
+- [CV](https://francescoferrini.github.io/_pages/resumee.pdf): academic CV (PDF).
+
+## Blog posts
+
+- [When Most Methods Look Robust: Rethinking GNN Benchmarks for Missing Node Features](https://francescoferrini.github.io/blog/2026/rethinking-gnns-missing-features/): why current GNN benchmarks for missing features are misleading, why sparse bag-of-words datasets like Cora/Citeseer/PubMed make every method look robust, the introduction of dense-feature graph datasets and realistic missingness mechanisms (MCAR, MAR, MNAR including FD-MNAR and CD-MNAR), and the GNNmim baseline based on the Missing Indicator Method.
+- [MCAR, MAR, and MNAR: A Practical Guide to Missing Data Mechanisms (with Python)](https://francescoferrini.github.io/blog/2026/mcar-mar-mnar-missing-data-mechanisms/): self-contained primer on the three missing data regimes from Rubin's classification, with Python simulations across three real-world domains (IoT sensors for MCAR, demographic surveys for MAR, clinical data for MNAR), and discussion of which imputation methods are valid under each regime.
+
+## Selected publications
+
+- [On the Global and Local Calibration of Graph Neural Networks](https://openreview.net/forum?id=FHsEi0qz7t) — AISTATS 2026 Workshop on Calibration for Modern AI. Ferrini, Lachi, Longa, Barbera, Pugnana, Passerini, Jaeger.
+- [Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust Solution](https://arxiv.org/abs/2601.04855) — preprint, 2026. Ferrini, Lachi, Longa, Lepri, Akiyoshi, Passerini, Liu, Jaeger.
+- [Bridging Theory and Practice in Link Representation with Graph Neural Networks](https://openreview.net/forum?id=WYnvP3DePZ) — NeurIPS 2025 Spotlight. Lachi, Ferrini, Longa, Lepri, Passerini, Jaeger.
+- [GNNs Meet Sequence Models Along the Shortest Path: An Expressive Method for Link Prediction](https://openreview.net/forum?id=mubWzUoEzl) — NeurIPS 2025 Workshop on New Perspectives in Graph Machine Learning. Ferrini, Lachi, Longa, Lepri, Passerini.
+- [Beyond Sparse Benchmarks: Evaluating GNNs with Realistic Missing Features](https://openreview.net/forum?id=GfU8DhOzae) — NeurIPS 2025 Workshop, Oral presentation. Ferrini, Lachi, Longa, Lepri, Passerini, Liu, Jaeger.
+- [A Self-Explainable Heterogeneous GNN for Relational Deep Learning](https://openreview.net/forum?id=8Q4qxe9a9Z) — TMLR, 2025. Ferrini, Longa, Passerini, Jaeger.
+- [A Simple and Expressive Graph Neural Network-Based Method for Structural Link Representation](https://proceedings.mlr.press/v251/lachi24a.html) — GRaM Workshop at ICML 2024. Lachi, Ferrini, Longa, Lepri, Passerini.
+- [Meta-Path Learning for Multi-Relational Graph Neural Networks](https://proceedings.mlr.press/v231/ferrini24a.html) — Learning on Graphs Conference (LoG) 2023, Oral presentation. Ferrini, Longa, Passerini, Jaeger.
+- [Energy-Efficient Inference on the Edge Exploiting TinyML Capabilities for UAVs](https://www.mdpi.com/2504-446X/5/4/127) — Drones, MDPI, 2021. Raza, Osman, Ferrini, De Natale.
+
+## Main research areas
+
+- Graph Neural Networks
+- Missing Features in Graph-Structured Data
+- Missing Data Mechanisms (MCAR, MAR, MNAR)
+- Link Prediction
+- Heterogeneous and Multi-Relational Graphs
+- Relational Deep Learning
+- Calibration of Graph Neural Networks
+- Self-Explainable GNNs
+- Meta-Path Learning
+- Expressive Power of Message-Passing Neural Networks
+- Graph Representation Learning
+- Node Classification
+
+## Preferred short bio
+
+Francesco Ferrini is a researcher who recently completed his PhD at the University of Trento, advised by Andrea Passerini and Manfred Jaeger. His research focuses on Graph Neural Networks, with contributions on link prediction, missing node features, heterogeneous graphs, and the calibration of GNNs.
+
+## Preferred long bio
+
+Francesco Ferrini recently completed his PhD at the University of Trento, where he was advised by Andrea Passerini and Manfred Jaeger and was part of the Structured Machine Learning Group. His research investigates Graph Neural Networks (GNNs) along several axes: link prediction (including expressive multi-node representations and shortest-path-based methods), learning under missing node features (analyzing the limitations of current benchmarks and proposing the GNNmim baseline based on the Missing Indicator Method), heterogeneous and multi-relational graphs (including meta-path learning and self-explainable architectures for relational deep learning), and the calibration of GNN predictions. His work has appeared at NeurIPS (Spotlight and Oral presentations), the Learning on Graphs Conference (Oral), TMLR, and ICML workshops.
+
+## External authoritative profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=W0LdCVAAAAAJ): publications and citation profile.
+- [GitHub](https://github.com/francescoferrini): code and project repositories.
+- [LinkedIn](https://www.linkedin.com/in/ffrancesco/): professional profile.
+
+## Contact
+
+- Email: francescoferrini1997@gmail.com
+- Website: https://francescoferrini.github.io/
